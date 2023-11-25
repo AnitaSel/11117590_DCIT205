@@ -4,7 +4,7 @@
 
 ## Introduction and the purpose of this website
 Welcome to my version of the coputer science departments website. This website is a redesign of the University of ghana 
-Computer science department website. This website
+Computer science department website. My website;
 
 * provides historical and current information about the computer science department
 * includes the two different programs offered by the computer science department of Ghana and the various courses taken
@@ -36,9 +36,9 @@ each year
 20. Finally, push the file(s) 
 
 
-## What ive learnt through this project
+## What i've learnt through this project
 
-## Ive learnt how to;
+## I've learnt how to;
 1. Fork a repository and pull a request
 2. Use different html tags that i wasnt familiar with to achieve a certain look
 3. Use CSS to control aspects of visualization and other features to make my project look professional and presentable
@@ -52,20 +52,35 @@ each year
 
 ## Screenshots of my website
 <img src="home.png">
-<img src="home2.png">
+
+<img src="Home2.png">
+
 <img src="ab.png">
+
  <img src="ab.png">
+
  <img src="ab2.png">
+
  <img src="admin.png">
+
  <img src="admin2.png">
+
  <img src="aca.png">
+
  <img src="aca2.png">
+
   <img src="undergrad.png">
+
  <img src="mp_sc.png">
+
  <img src="phddd.png">
+
  <img src="stc.png"> 
+
  <img src="evt.png">
+
  <img src="cont.png">
+
  <img src="cont2.png">
 
 
