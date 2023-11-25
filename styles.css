@@ -1,0 +1,405 @@
+body{
+    background-color: #ebeaea;
+    
+}
+
+header{
+    height: 60px;
+    width: 10px;
+
+}
+
+h1{
+    font-size: 80px;
+}
+.menu__bar{
+    
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 05%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: rgb(73, 73, 73);
+ }
+ 
+ .logo{
+     color:rgb(41, 41, 105);
+     font-size: medium;
+ }
+ 
+ .logo span{
+     color: rgb(48, 48, 117);
+     font-size: medium;
+ }
+ 
+ .menu__bar ul{
+     list-style: none;
+     display: flex;
+     text-align: right;
+     align-content: right;
+ }
+ .menu__bar ul li{
+     padding: 10px 30px;
+ }
+ 
+ .menu__bar ul li a{
+     color: var(--color-white);
+     text-decoration: none;
+     font-size: 20px;
+     margin-right: 0px;
+ }
+ 
+ .menu__bar ul li a:hover{
+     color: rgb(11, 11, 161);
+ }
+ 
+ nav {
+     background-color: blue;
+     color: #fff;
+     padding: 1em;
+     text-align: center;
+ }
+.background{
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    background-image: url(picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+margin-top: 2px;
+}
+
+#menu {
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 300px;
+   margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 4px;
+    height: 400px;
+}
+ 
+h3{
+    color:rgb(48, 48, 117) ;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(85, 84, 84);
+}
+
+*{
+    margin: 10;
+    padding: 8;
+}
+
+.UG{
+    width: 10px;
+    height: 10px;
+}
+#home{
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 2px;
+}
+
+
+
+.programs{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}  
+
+.programs a:hover{
+    color: rgb(11, 11, 161);
+}
+.body{
+    display:flex;
+}
+
+#contact{
+    margin-bottom: 0px;
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgb(213, 209, 209);
+    border-radius: 10px;
+    color: rgb(48, 48, 117);
+    height: 300px;
+    display: flex;
+}
+
+.location{
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+ 
+
+.anchor{
+    background:rgb(48, 48, 117) ;
+    color: #f9f8f8;
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    width: 160px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform ;
+    transition-property: box-shadow, transform;
+    border: 0ch;
+}
+
+.anchor:hover, .anchor:focus, .anchor:active{
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+
+
+
+footer {
+    background-color:rgb(213, 209, 209);
+    color: rgb(48, 48, 117);
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2{
+    color: rgb(48, 48, 117);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.form{
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgb(213, 209, 209);
+    border-radius: 10px;
+    color: rgb(48, 48, 117);
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.form input{
+    border-radius: 8px;
+    padding: 7px 10px;
+    
+}
+.facebook span {
+    color: #f9f8f8;
+    height: 1%;
+    width: 1%;
+}
+
+
+
+.grid{
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 15px;
+   
+}
+
+.undergraduate{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.undergraduate img{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.graduate{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.graduate img{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.phd{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.phd img{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.short{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.short img{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.container{
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+
+.cs_it{
+    display: flex;
+}
+
+
+.cs_courses {
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 600px;
+   margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 4px;
+    height: 400px;
+}
+
+.IT_courses {
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 600px;
+   margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 4px;
+    height: 400px;
+}
+
+.contacts{
+    margin-left: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 300px;
+    margin-top: 0px;
+}
+
+.program{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.program a:hover{
+    color: rgb(11, 11, 161);
+}
+
+.admission{
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    background-image: url(admission.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+margin-top: 2px;
+}
+
+.academics{ 
+color: #fff;
+padding: 1em;
+text-align: center;
+width: 100%;
+height: 350px;
+background-image: url(academics.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 2px;
+}
+
+.about{ 
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    background-image: url(about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2px;
+    }
+
+.events{ 
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    background-image: url(events.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2px;
+    }
+
+    .con{ 
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        width: 100%;
+        height: 350px;
+        background-image: url(contact.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 2px;
+        }
